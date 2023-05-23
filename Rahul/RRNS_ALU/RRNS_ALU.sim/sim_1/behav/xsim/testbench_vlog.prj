@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RRNS_ALU.srcs/sources_1/new/RRNS_ALU.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/bin2RRNS.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/modulo101n.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/modulo103n.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/modulo107n.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/modulo109n.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/modulo113n.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/modulo127n.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/mrc1.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/mrc2.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/mrc3.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/mrc4.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/res_sub.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/residue_adder.v" \
+"../../../../RRNS_ALU.srcs/sources_1/new/residue_check.v" \
+"../../../../RRNS_ALU.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
